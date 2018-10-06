@@ -15,16 +15,16 @@ function init() {
   let index = 0;
   document.addEventListener('keydown', onKeyDownHandler);
   function onKeyDownHandler(e) {
-  const key = e.key;
-  if (key === alphabet[index]) {
-    index++;
-    if (index === alphabet.length) {
-      alert("Hurray!");
+    const key = e.key;
+    if (key === alphabet[index]) {
+      index++;
+      if (index === alphabet.length) {
+        alert("Hurray!");
+        index = 0;
+      }
+    } else {
       index = 0;
     }
-  } else {
-    index = 0;
-  }
   }
 }
 
