@@ -28,4 +28,4 @@ function init() {
   }
 }
 
-return init(); 
+ 
