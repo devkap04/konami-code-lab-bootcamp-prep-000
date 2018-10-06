@@ -27,4 +27,3 @@ function init() {
   }, false);
 }
 
-init();
